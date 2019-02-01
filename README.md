@@ -7,7 +7,9 @@ Implemented skills:
 
 - Very modular, extendable and encapsulated design.
 - Practiced OOP principles such as encapsulation, inheritence, polymorphism/dynamic binding, data-hiding, and abstraction
-- Design Patterns used:
+
+Design Patterns practiced:
 State: - to seperate the multiple game states (start, running, end) and handle user input
-Factory-Builder: - Encapsulates game object creation into a simple set of methods.
+Factory-Builder: - Encapsulates game object and game level creation into a simple set of methods.
+
 - Recursively randomly-generated maps
