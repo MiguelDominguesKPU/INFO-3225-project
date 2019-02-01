@@ -7,7 +7,7 @@ Implemented skills:
 
 - Very modular, extendable and encapsulated design.
 - Practiced OOP principles such as encapsulation, inheritence, polymorphism/dynamic binding, data-hiding, and abstraction.
-- Randomly-generated maps that are recursively generated as an n-ary tree.
+- Randomly-generated maps that are built recursively as an n-ary tree.
 
 Design Patterns practiced:
 
