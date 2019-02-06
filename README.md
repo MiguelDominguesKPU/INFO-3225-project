@@ -13,8 +13,7 @@ Design Patterns practiced:
 
 - State: - to seperate the multiple game states (start, running, end) and handle user input.
 - Factory-Builder: - Encapsulates game object and game level creation into a simple set of methods.
-- MVC: - input and output is passed from the main application loop (View) and handled by the application states (Controller). All game  
-  data for levels, rooms, and game objects is encapsulated into Level/Room/Tile (Model)
+- MVC: - input and output is passed from the main application loop (View) and handled by the application states (Controller). All game data for levels, rooms, and game objects is encapsulated into Level/Room/Tile (Model)
 
 Overview of application flow:
 
