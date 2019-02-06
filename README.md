@@ -14,7 +14,7 @@ Design Patterns practiced:
 - State: - to seperate the multiple game states (start, running, end) and handle user input.
 - Factory-Builder: - Encapsulates game object and game level creation into a simple set of methods.
 
-Overview of program flow:
+Overview of application flow:
 
 1. Program uses States to determine input/output and where user is at in the application. Game state changes are done within state classes via method calls.
 
@@ -22,4 +22,4 @@ Overview of program flow:
 
 3. As user moves in the game, MovingObjectController and CollisionDetector classes contain game logic for how player character and game objects interact. The Actionable and Combatable interfaces define how game objects interact with other objects.
 
-4. When a user finds the exit to a level, a new level is randomly built.
+4. When a user finds the exit to a level, a new level is randomly built or the game ends.
