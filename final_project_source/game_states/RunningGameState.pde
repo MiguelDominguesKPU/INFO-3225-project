@@ -100,8 +100,14 @@ ArrayList<PImage> loadSpriteSheet(String spriteSheetName){
     drawText();
   }
   
+  //mouse input does nothing
   void getMouseInputForGameState(int mouseX, int mouseY){};
   
+  /*
+  5 commands:
+  a, w, s, d: move character west, north, south, east respectively
+  space: skip character turn and allow monsters to move
+  */
   void getKeyboardInputForGameState(char key)
   {
     switch(key)
@@ -170,6 +176,7 @@ ArrayList<PImage> loadSpriteSheet(String spriteSheetName){
   fill(0,0,0);
   }
   
+  //attempt to move character a n/e/s/w direction
 void initGameTurn(Direction direction)
 {
   
@@ -192,7 +199,7 @@ void initGameTurn(Direction direction)
 }
 
 
-
+//skip turn and let monsters move
 void initGameTurn()
 {
    if(!mainCharacter.isDead())
